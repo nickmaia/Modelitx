@@ -199,10 +199,11 @@ MODELITX/
 ├── frontend/
 │   ├── public/
 │   └── src/
+│   ├── package.json
+│   └── yarn.lock
 ├── .gitignore
-├── package.json
 ├── README.md
-└── yarn.lock
+
 ```
 
 ## Instalação
