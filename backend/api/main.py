@@ -7,6 +7,13 @@ from scipy import optimize
 
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 def get_linear_params(x, y):
     x = np.array(x)
